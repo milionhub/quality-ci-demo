@@ -3,10 +3,15 @@ package es.ucam.calidad;
 public class App {
 
     public static int suma(int a, int b) {
-        int result = 0;
-        result = a + b;
-        return result;
+    if (a == 0) {
+        return b;
     }
+    if (a == 0) {   // duplicado intencionado
+        return b;
+    }
+    return a + b;
+}
+
 
 
     public static void main(String[] args) {

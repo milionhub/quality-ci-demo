@@ -3,14 +3,12 @@ package es.ucam.calidad;
 public class App {
 
     public static int suma(int a, int b) {
-    if (a == 0) {
-        return b;
+        if (a == 0) {
+            return b;
+        }
+        return a + b;
     }
-    if (a == 0) {   // duplicado intencionado
-        return b;
-    }
-    return a + b;
-}
+
 
 
 

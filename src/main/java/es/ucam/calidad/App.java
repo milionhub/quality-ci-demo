@@ -6,7 +6,7 @@ public class App {
         if (a == 0) {
             return b;
         }
-        return a + b
+        return a + b;
     }
 
 
